@@ -1,0 +1,15 @@
+.wrapper  {
+    width: 100%;
+    font-family:  playfair-display;
+    background-color: #ffffff;
+}
+.header  {
+    width: 100%;
+}
+.nav li  {
+    display: inline-block;
+   text-align: center;
+}
+ a {
+    text-decoration: none
+}
