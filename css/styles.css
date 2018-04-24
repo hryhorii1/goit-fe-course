@@ -24,6 +24,7 @@
     width: 130px;
     display: inline-block;
     margin-right: 50px;
+    font-size: 14px;
 }
 .link-list:last-child  {
     margin-right: 0;
@@ -54,6 +55,13 @@
 .title  {
     margin-bottom: 40px;
     margin-top: 30px;
+    font-size: 30px;
+}
+.img-title  {
+    font-size: 14px;
+}
+.text  {
+    font-size: 14px;
 }
 .footer  {
     text-align: center;
@@ -61,4 +69,5 @@
 .button  {
     width: 164px;
     height: 60px;
+    font-size: 20px;
 }
