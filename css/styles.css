@@ -9,7 +9,7 @@
     width: 901px;
     background-color:#ffffff;
     margin: auto;
-    padding-top: 75px
+    padding-top: 65px
 }
 .nav li {
     display: inline-block;
@@ -30,7 +30,7 @@
     margin-right: 0;
 }
 .main  {
-    margin-top: 102px;
+    margin-top: 20px;
 }
 .article-content  {
     margin-bottom: 55px;
@@ -71,4 +71,7 @@
     width: 164px;
     height: 60px;
     font-size: 20px;
+}
+.footer  {
+    padding-bottom: 65px;
 }
