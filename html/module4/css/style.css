@@ -1,3 +1,52 @@
-
 .wrapper  {
     background-color: #ffffff;
+    }
+.nav-site {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 1112px;
+    height: 21px;
+       
+}
+.list {
+    float: right;
+}
+.logo {
+    float: left;
+}
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.link-list {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+ 	font-family: "Open Sans";	
+    font-size: 14px;	
+    font-weight: 700;
+    color: #1ABC9C;
+    line-height: 11px;
+    padding: 5px 10px;
+    
+    
+}
+.menu {
+    width: 1112px;
+    height: 21px;
+    margin: auto;
+}
+.container {
+    background-color: #ffffff;
+    width: 1647px;
+    height: 1838px;
+    padding-top: 38px;
+}
+.logo-img {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #1ABC9C;
+    line-height: 32px;
+}
