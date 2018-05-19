@@ -4,15 +4,13 @@
     box-sizing: border-box;
 }
 .wrapper {
-    display: block;
     background-color: #FFFFFF;
     padding-top: 43px;
-    width: 1600px;
 }
 .container {
     width: 1170px;
     margin: auto;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
 }
 body {
     font-size: 0;
@@ -61,47 +59,46 @@ body {
 .list:hover>.list-item {
     color: #1ABC9C;
 }
-.header {
-    padding-bottom: 52px;
-}
 .box-backgroud-image {
     position: relative;
-    max-width: 1600px;
-    min-width: 1170px;
-    height: 600px;
+    height: 600px; 
     margin: auto;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 101px;
+    margin-top: 38px;
 }
 .title {
+    width: 738px;
     font-family: 'Roboto';
-    font-size: 60px;
+    font-size: 50px;
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 82px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .text {
+    width: 738px;
     font-family: 'Open Sans';
-    font-size: 27px;
+    font-size: 25px;
     color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 400;
-    position: absolute;
-    top: 60%;
-    right: 40%;
+    position: absolute; 
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.slider-box1 {
+.slider-box1 { 
     position: absolute;
     top: 50%;
     left: 10%;
+    transform: translate(-50%, -50%);
     height: 100px;	
     width: 100px;
     background-color: #4EC6AB;
@@ -110,6 +107,7 @@ body {
     position: absolute;
     top: 50%;
     right: 10%;
+    transform: translate(-50%, -50%);
     height: 100px;	
     width: 100px;
     background-color:#1ABC9C
@@ -119,12 +117,21 @@ body {
    text-decoration: none; 
 }
 .symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: block;
-    text-align: center;
     color: #FFFFFF;
     font-size: 100px;
-    line-height: 100px;
-    cursor: pointer;  
+    cursor: pointer;   
+}
+.wrapper-main {
+    background-color: #E9F0FD;
+}
+.container-section {
+    width: 1170px;
+    margin: auto;
 }
 .title-collection {
     color: #515151;	
@@ -134,6 +141,9 @@ body {
     line-height: 32px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 120px;
+    padding-top: 101px;
+    background-color: #E9F0FD;
 }
 .title-collection::after {
     display: block;
@@ -143,15 +153,16 @@ body {
     background: #1ABC9C;
     margin: auto;
     margin-top: 32px;
-    margin-bottom: 92px;
 }
-.card { 
+.section-body {
+    background-color: #E9F0FD;
+}
+.card {  
     position: relative;
     width: 255px;
-    height: 281px;
     float: left; 
     margin-right: 30px;
-    border: solid white 1px;
+    padding-bottom: 94px;
 }
 card:last-child {
     margin-right: 0;
@@ -188,39 +199,11 @@ card:last-child {
 .card:hover .price {
     background-color: #7fd9c7;
 }
-.container-section {
-    width: 1170px;
-    margin: auto;
-    background-color: #FFFFFF;
-}
-.main {
-    width: 1170px;
-    height: 676px;
-}
-.footer {
-    position: relative;
-    height: 88px;	
-    width: 1600px;	
-    background-color: 
-    #323232
-}
-.footer-info {	
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FEFEFE;	
-    font-family: 'Open Sans';
-    font-size: 16px;			
-}
-.footer-item .footer-info:hover {
-    color: #1ABC9C;
-}
-.card-list {
+ .card-list {
     position: relative;
     width: 50px;
     height: 50px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF; 
     display: inline-block;
     margin-bottom: 5px;
     margin-right: 5px;
@@ -231,11 +214,11 @@ card:last-child {
 }
 .info-name {
     display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+     position: absolute; 
+     top: 34%; 
+     left: 50%; 
     transform: translate(-50%, -50%);
-    height: 353px;
+    height: 310px; 
     width: 255px;	
     border: 5px solid #FFFFFF;		
     background-color: rgba(0, 0, 0, 0.5);
@@ -259,12 +242,6 @@ card:hover {
     transform: translate(-50%, -50%);
     display: block;
     width: 26px;
-    height: 23px;
-    background-image: url('../images/icon1.png');
-    background-color: transparent;
-    background-position: center;
-    margin: auto;
-    background-repeat: no-repeat;
 }
 .button-item2 {
     position: absolute;
@@ -273,12 +250,6 @@ card:hover {
     transform: translate(-50%, -50%);
     display: block;
     width: 26px;
-    height: 23px;
-    background-image: url('../images/icon2.png');
-    background-color: transparent;
-    background-position: center;
-    margin: auto;
-    background-repeat: no-repeat;
 }
 .button-item3 {
     position: absolute;
@@ -287,32 +258,48 @@ card:hover {
     transform: translate(-50%, -50%);
     display: block;
     width: 26px;
-    height: 23px;
-    background-image: url('../images/icon3.png');
-    background-color: transparent;
-    background-position: center;
-    margin: auto;
-    background-repeat: no-repeat;
 }
 .button-item4 {
+    position: relative;
     display: block;
     color: #FFFFFF;	
     font-family: 'Open Sans';	
     font-size: 14px;
-    text-align: center;
+    text-align: center; 
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 50px;
-    background-image: url('../images/icon4.png');
-    background-color: #323232;
-    background-position: left;
+    line-height: 50px; 
     border: 1px solid #FFFFFF;
-    margin: auto;
-    background-repeat: no-repeat;
+}
+.img-button {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    transform: translate(-50%, -50%);
 }
 .button-item4:hover {
     background-color:#1ABC9C;
 }
 .card-list:hover {
-    background-color:#1ABC9C;
+     background-color:#1ABC9C; 
 }
+.wrapper-footer {
+    position: relative;
+    background-color: #323232;
+    padding-bottom: 88px;
+}		
+.footer-item {
+    display: block;
+}
+.footer-info {	
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #FEFEFE;	
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center			
+}
+.footer-info:hover {
+    color: #1ABC9C;
