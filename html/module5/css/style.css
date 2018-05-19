@@ -261,6 +261,7 @@ card:hover {
 }
 .button-item4 {
     position: relative;
+    width: 160px;
     display: block;
     color: #FFFFFF;	
     font-family: 'Open Sans';	
