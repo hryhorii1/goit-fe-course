@@ -158,16 +158,23 @@
 .footer {
     display: flex; 
     justify-content: space-between;
-    border: 1px solid  #E5E5E5;
     flex-basis: 50px;
     align-items: center;
+    padding-top: 10px;
 }
-.footer-item {
+.footer-item: {
     display: block;
     text-decoration: none;
     color: #333333;	
     font-family: 'Montserrat';	
     font-size: 14px;	
+}
+.footer-main::before {
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #E5E5E5;
+    min-width:1200px;
 }
   .button-item {
     text-decoration: none;
@@ -215,7 +222,11 @@
     .card-list { 
          background-color: #FCE38A; 
          border: 1px solid #F38181;
-         padding: 15px 16px; 
+         /* padding: 15px 16px;  */
+         width: 56px;
+         height: 56px;
+         text-align: center;
+         padding-top: 15px;
     }
     .card:hover>.info-name {
         display: block;
