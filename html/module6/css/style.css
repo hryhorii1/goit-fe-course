@@ -162,12 +162,13 @@
     align-items: center;
     padding-top: 10px;
 }
-.footer-item: {
-    display: block;
+.footer-item {
     text-decoration: none;
+}
+.footer-info {
     color: #333333;	
     font-family: 'Montserrat';	
-    font-size: 14px;	
+    font-size: 14px;
 }
 .footer-main::before {
     display: block;
