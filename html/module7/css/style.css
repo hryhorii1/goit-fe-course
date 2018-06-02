@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat/montserrat-v12-latin-regular.woff2') format('woff2'), 
+         url('../fonts/montserrat/montserrat-v12-latin-regular.woff') format('woff');
+}
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat/montserrat-v12-latin-700.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-v12-latin-700.woff') format('woff'); 
+  }
+  /* kaushan-script-regular - latin */
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'),
+         url('../fonts/kaushan/kaushan-script-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/kaushan/kaushan-script-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto/roboto-slab-v7-latin-regular.woff') format('woff2'), 
+         url('../fonts/roboto/roboto-slab-v7-latin-regular.woff2') format('woff'); 
+}
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    display: block;
+    text-decoration: none;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 26px;
+    color: #FED136;
+}
+.nav-site {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+.list-item {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.list-item:hover { 
+    color: #FED136;
+}
+.title {
+    color: #222222;	
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 40px;	
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-services {
+    color: #777777;	
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 16px;	
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.header {
+    padding-bottom: 127px;
+}
+.icon-title {
+    color: #222222;	
+    font-family: 'Montserrat',sans-serif;	
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+.service-description {
+    color: #777777;	
+    font-family: 'Roboto Slab', sans-serif;	
+    font-size: 14px;
+    text-align: center;
+}
+.icon-item {
+    display: block;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.section-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 77px;
+}
+.services {
+    flex-basis: 30%;
+}
+.icon-title {
+    margin-bottom: 18px;
+}
+.wrapper-form {
+    background-image: url('../images/Map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 115px;
+}
+.color {
+    color: #FFFFFF;
+    padding-top: 110px;
+    text-transform: uppercase;
+}
+.form {
+    margin-top: 77px;
+}
+.form-item {
+    display: flex; 
+}
+.button {
+    display: block;
+    margin: auto;
+    color: #FFFFFF;	
+    font-family: 'Montserrat';	
+    font-size: 18px;	
+    font-weight: 700;	
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FED136;
+    padding: 25px 47px;
+    border: 0;
+    margin-top: 30px;
+}
+.form-container {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.message {
+    display: block;
+    flex-basis: 50%;
+    min-height: 210px;
+    resize: none;
+}
+::placeholder {
+    text-transform: uppercase;
+    color: #BBBBBB;	
+    font-family: 'Montserrat',sans-serif;	
+    font-size: 14px;	
+    font-weight: 700;
+    padding: 20px 0 20px 20px;
+}
+.text-text {
+    padding: 16px 0;
+    margin-right: 30px;
+}
+input:valid:required:focus {
+    outline: 2px solid#4F7942;
+}
+input:invalid:required:focus{
+    outline: 2px solid#FF0000;
+}
+textarea:valid:required:focus { 
+    outline: 2px solid#4F7942; 
+}
+textarea:invalid:required:focus { 
+    outline: 2px solid#FF0000;
+}
