@@ -11,16 +11,18 @@
     margin-bottom: 7.18rem;
 }
 .nav-link {
+    display: block;
     color: #FFFFFF;	
     font-family: 'Montserrat', sans-serif;	
     font-size: 0.87rem;	
     font-weight: 700;
     text-align: center;
+    border: solid transparent; 
+    border-radius: 1.25rem; 
+    padding: 0.7rem 1.1rem;
 }
 .nav-link:hover {
-    border: 0.1rem solid #FFFFFF; 
-    border-radius: 1.25rem;
-    padding: 0.7rem 1.1rem;
+    border: solid #FFFFFF; 
 }
 .logo {
     display: block;
