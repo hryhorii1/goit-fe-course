@@ -1,0 +1,28 @@
+.red {
+    background-color: #FF4E50;
+}
+.yellow {
+    background-color: #FFA507;
+}
+.green {
+    background-color: #1CD7AD;
+}
+.blue {
+    background-color: #4E73DB;
+}
+.card {
+    position: relative;
+    width: 7.75rem;
+    margin: auto;
+}
+.icon {
+    width: 2.75rem;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    padding: 0.75rem;
+}

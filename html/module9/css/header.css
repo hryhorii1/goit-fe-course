@@ -1,0 +1,42 @@
+.banner-head {
+    background-image: linear-gradient(to bottom, rgba(26,25,21,0.3), rgba(26,25,21,0.3)), url(../images/banner.jpg); 
+    min-height: 32rem;
+    max-height: 44rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+.main {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
+}
+.main:hover {
+    color: #FFFFFF;
+    box-shadow: 0 0 0 2px white inset;
+    border-radius: 1rem;
+}
+.centre {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.12rem;
+}
+.main-title {
+    text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.88rem;
+    font-weight: 700;
+}
+.logo {
+    color: #FFFFFF;	
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 1.25rem;	
+    font-weight: 700;
+    text-transform: uppercase;
+}

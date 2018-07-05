@@ -1,0 +1,7 @@
+.banner-main {
+    margin: auto;
+    max-width: 60rem;
+    min-width: 20rem;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 4.56rem
+}
