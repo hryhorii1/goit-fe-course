@@ -13,7 +13,11 @@
     color: rgb(51, 51, 51);
     font-weight: 700;
 }
-
+@media (max-width: 767px) {
+    .img-socials {
+    margin-top: 1.5625rem;
+}
+}
 .img-head {
     margin-top: 0;
 }
