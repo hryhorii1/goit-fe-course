@@ -4,6 +4,7 @@
     color: rgb(51, 51, 51);
     font-weight: 700;
     text-align: center;
+    margin-top: 1.25rem;
 }
 
 .title {
@@ -12,10 +13,7 @@
     color: rgb(51, 51, 51);
     font-weight: 700;
 }
-.img-socials {
-    margin-bottom: 1.25rem;
-    margin-top: 1.87rem;
-}
+
 .img-head {
     margin-top: 0;
 }
