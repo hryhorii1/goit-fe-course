@@ -21,3 +21,4 @@ if (total !== 0) {
 } else {
     alert('Масив пустий!');
 }
+let
