@@ -1,6 +1,6 @@
 'use strict';
 
-const allLogins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
+const allLogins= ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 
 const isLoginValid = function (login) {
     const min = 4;
